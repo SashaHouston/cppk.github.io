@@ -1,0 +1,120 @@
+*{
+    font-family: 'Calibri';
+}
+
+/*  Header  */
+header{
+    background: #317fc4;
+    height: 70px;
+    box-shadow: 2px 1px 10px black;  /*тени*/
+}
+
+header h5{
+    margin-top: 22px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h5 a{
+    color: #ffffff;
+    white-space: nowrap; /*убираем перенос строки*/
+}
+
+/* Поиск */
+.row-search{
+    text-align: center;
+    padding-top: 30px;
+    height: 70px;
+}
+
+input{   /* удлинить поиск */
+    padding: 10px 12px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    line-height: 1.5rem;
+    color: #444444;
+    font-size: 2rem;
+    box-shadow: 1px 1px 3px black;  /*тени*/
+}
+
+button{
+    height: 45px;
+}
+
+/* Контент на главной */
+
+.preview-text{
+    font-size: 1.3em;
+}
+
+.main-content a{
+    color: #5c5b5b;
+    text-decoration: none;
+}
+
+.main-content h3{
+    margin: 5px 0;
+}
+
+.main-content .post{
+    margin-bottom: 30px;
+}
+
+.main-content .post_text{
+    background: rgb(255, 255, 255); /*цвет публикаций*/
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.main-content .post_text h3{
+    margin: 8px 0;
+}
+
+.main-content .post_text {
+    margin-top: 45px;
+    color: #5c5b5b;
+}
+
+/*Сайдбар*/
+
+.sidebar .section{
+    padding-top: 50px;
+}
+
+.sidebar .topics ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sidebar .topics ul li a{
+    display :block;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-weight:500;
+    color: #5c5b5b;
+    font-size: 1.3em;
+    white-space: nowrap; /*убираем перенос строки*/
+}
+
+.sidebar .topics ul li a:hover{ /*анимация*/
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+
+/*Футер*/
+.row3 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.row3 a {
+    text-decoration: none;
+}
